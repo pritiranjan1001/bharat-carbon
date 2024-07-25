@@ -1,7 +1,3 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 20/02/2020 09:43
-  	*/
 
 @font-face {
   font-family: "Flaticon";
@@ -29,6 +25,8 @@
 }
 
 .flaticon-businessman:before { content: "\f100"; }
+.flaticon-investment:before { content: ""; }
+
 .flaticon-pay:before { content: "\f101"; }
 .flaticon-plane:before { content: "\f102"; }
 .flaticon-support:before { content: "\f103"; }
