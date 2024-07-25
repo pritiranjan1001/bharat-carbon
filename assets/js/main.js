@@ -12,14 +12,14 @@
 
 /* 2. slick Nav */
 // mobile_menu
-    var menu = $('ul#navigation');
-    if(menu.length){
-      menu.slicknav({
-        prependTo: ".mobile_menu",
-        closedSymbol: '+',
-        openedSymbol:'-'
-      });
-    };
+    // var menu = $('ul#navigation');
+    // if(menu.length){
+    //   menu.slicknav({
+    //     prependTo: ".mobile_menu",
+    //     closedSymbol: '+',
+    //     openedSymbol:'-'
+    //   });
+    // };
 
 
 /* 3. MainSlider-1 */
@@ -236,23 +236,23 @@
     }
 
 /* 7.  Custom Sticky Menu  */
-    $(window).on('scroll', function () {
-      var scroll = $(window).scrollTop();
-      if (scroll < 245) {
-        $(".header-sticky").removeClass("sticky-bar");
-      } else {
-        $(".header-sticky").addClass("sticky-bar");
-      }
-    });
+    // $(window).on('scroll', function () {
+    //   var scroll = $(window).scrollTop();
+    //   if (scroll < 245) {
+    //     $(".header-sticky").removeClass("sticky-bar");
+    //   } else {
+    //     $(".header-sticky").addClass("sticky-bar");
+    //   }
+    // });
 
-    $(window).on('scroll', function () {
-      var scroll = $(window).scrollTop();
-      if (scroll < 245) {
-          $(".header-sticky").removeClass("sticky");
-      } else {
-          $(".header-sticky").addClass("sticky");
-      }
-    });
+    // $(window).on('scroll', function () {
+    //   var scroll = $(window).scrollTop();
+    //   if (scroll < 245) {
+    //       $(".header-sticky").removeClass("sticky");
+    //   } else {
+    //       $(".header-sticky").addClass("sticky");
+    //   }
+    // });
 
 
 

@@ -697,54 +697,54 @@ li {
 }
 
 .services-padding {
-    padding-top: 300px;
+    padding-top: 80px;
     padding-bottom: 150px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .services-padding {
-        padding-top: 300px;
-        padding-bottom: 150px
+        padding-top: 80px;
+        padding-bottom: 15px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .services-padding {
-        padding-top: 200px;
+        padding-top: 60px;
         padding-bottom: 150px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .services-padding {
-        padding-top: 150px;
+        padding-top: 60px;
         padding-bottom: 70px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .services-padding {
-        padding-top: 150px;
+        padding-top: 60px;
         padding-bottom: 70px
     }
 }
 
 @media (max-width: 767px) {
     .services-padding {
-        padding-top: 150px;
+        padding-top: 60px;
         padding-bottom: 70px
     }
 }
 
 .footer-padding {
-    padding-top: 200px;
-    padding-bottom: 100px
+    padding-top: 100px;
+    padding-bottom: 20px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .footer-padding {
-        padding-top: 200px;
-        padding-bottom: 100px
+        padding-top: 100px;
+        padding-bottom: 20px
     }
 }
 
@@ -1823,9 +1823,22 @@ li {
     background-image: -webkit-linear-gradient(0deg, #ff6633 0%, #00b8f5 100%);
     background-image: -ms-linear-gradient(0deg, #ff6633 0%, #00b8f5 100%);
 } */
-  .available-app-area {
-    background:#591a04;}
-  
+
+.available-app-area {
+    background: #591a04;
+}
+
+.available-app-area-measure-1 {
+    background: #4b6449;
+}
+
+.available-app-area-measure-2 {
+    background: #3c4e52;
+}
+
+.available-app-area-measure-3 {
+    background: #3c4e52;
+}
 
 
 .sample-text-area {
@@ -3093,18 +3106,21 @@ del {
     background-position: center center
 }
 
-.slider-area-image  {
+.slider-area-image {
     background-image: url('../img/hero/background.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-  }
+}
 
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .slider-height {
         min-height: 500px;
+    }
+
+    .slider-height-service {
+        min-height: 300px !important;
     }
 }
 
@@ -3208,7 +3224,7 @@ del {
     margin-bottom: 54px;
     padding-right: 155px;
     font-size: 18px;
-        line-height: 27px;
+    line-height: 27px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4266,13 +4282,37 @@ del {
     color: #ff6633
 }
 
-.fw-700{
+.fw-700 {
     font-weight: 600;
 }
-.light-grey{
+
+.light-grey {
     color: #8f8d8d;
     font-size: 14px;
 }
-.bg-color-net-zero{
+
+.bg-color-net-zero {
     background-color: #5d605f !important;
+}
+
+.bg-color-blue {
+    background-color: #2a6274 !important;
+}
+
+.service-banner {
+    background-image: url('../img/hero/service-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px !important;
+    /* margin-top: 8em; */
+}
+
+.text-banner-service {
+    position: relative;
+    z-index: 12;
+    display: flex;
+    justify-content: center;
+    padding: 4em 4px;
+    color: #fff;
+    font-size: 36px;
 }
